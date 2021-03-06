@@ -1,0 +1,12 @@
+# nodejs settings
+settings
+
+# node files
+node_modules
+
+# tmp files
+tmp
+
+# cert files
+cert
+
