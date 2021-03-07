@@ -1,0 +1,13 @@
+# always ignore eslintrc
+.eslintrc.js
+settings/.eslintrc.js
+
+# ignore the node_modules folders
+node_modules
+settings/node_modules
+
+# settings/*
+settings/lib
+
+# tmp
+tmp
