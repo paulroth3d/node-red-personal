@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "",
-    "start": "./node_modules/.bin/node-red --settings=./settings/settings.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "node ./node_modules/.bin/esw",
+    "lint:watch": "npm run lint -- --watch",
+    "test": "node ./node_modules/.bin/jest",
+    "test:watch": "npm run test -- --watch",
+    "start": "./node_modules/.bin/node-red --settings=./settings/settings.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
     "eslint-watch": "^7.0.0",
     "jest": "^27.0.6"
   },

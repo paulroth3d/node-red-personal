@@ -1,6 +1,9 @@
 # always ignore eslintrc
 
-./eslintrc
+.eslintrc.js
+
+# settings
+settings
 
 # ignore node_modules folder
 ./node_modules
